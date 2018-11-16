@@ -15,6 +15,7 @@ This line of code imports TensorBoard from the tensorflow .You can see that I ha
 This line of code creates an tensorboard object and mention the directory for tensorboard to save the logs.
 
 ```model.fit(train_images , train_labels, epochs = 3 , callbacks=[tensorboard])```
+
 Finally mention tensorboard as one of the callbacks in the Sequential model fit function of Keras.
 
 Also before running this code head back to the terminal and execute the command
