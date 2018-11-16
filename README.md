@@ -1,14 +1,17 @@
 # TensorBoard Example
 
+![](https://forthebadge.com/images/badges/made-with-python.svg)
+
 This is a small example code on how to use tensorboard to visualise the loss and accuracy of your model.
 
-This is a code is implemented using keras and the dataset used is the Fashion_MNIST from keras.
+..*This is a code is implemented using keras and the dataset used is the Fashion_MNIST from keras.
 
 If you go through the code you will notice this line,
 
 ```from tensorflow.python.keras.callbacks import TensorBoard```
 
-This line of code imports TensorBoard from the tensorflow .You can see that I have used a batch of only 500 images because of GPU constraints.
+This line of code imports TensorBoard from the tensorflow .
+..*You can see that I have used a batch of only 500 images because of GPU constraints.
 
 ```tensorboard = TensorBoard(log_dir="logs/{}".format(time()))```
 
