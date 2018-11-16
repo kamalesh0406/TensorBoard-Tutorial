@@ -1,5 +1,5 @@
-###### TensorBoard Example
-
+##### TensorBoard Example
+----
 This is a small example code on how to use tensorboard to visualise your loass and accuracty.
 
 This is a code is implemented using keras and the dataset used is the Fashion_MNIST from keras.
